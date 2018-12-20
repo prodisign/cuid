@@ -21,4 +21,4 @@ declare const cuid: (() => string) & {
   isSlug: ((slug: string) => boolean)
 };
 
-export = cuid;
+export default = cuid;
